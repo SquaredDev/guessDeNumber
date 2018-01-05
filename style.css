@@ -1,26 +1,9 @@
-html {
-  background:#fff url('http://punchcode.org/static/media/logo.d8fc8b9a.svg') no-repeat;
-  background-size:150px;
-  background-position:left bottom;
-  border:10px solid #fff;
-  height:100%;
-  box-sizing:border-box;
-}
-
 body, body * {
   font-family: monospace;
 }
-.response {
+.response, .guesses {
   text-align: center;
-  margin-top: 20px;
-  height: 50px;
-  color: #111;
-  font-size: 2em;
-}
-
-.guesses{
-  text-align: center;
-  margin-top: 20px;
+  margin:20px 0;
   height: 50px;
   color: #111;
   font-size: 2em;
