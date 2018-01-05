@@ -12,7 +12,15 @@ body, body * {
 }
 .response {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  height: 50px;
+  color: #111;
+  font-size: 2em;
+}
+
+.guesses{
+  text-align: center;
+  margin-top: 20px;
   height: 50px;
   color: #111;
   font-size: 2em;
