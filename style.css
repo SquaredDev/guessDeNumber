@@ -1,0 +1,65 @@
+html {
+  background:#fff url('http://punchcode.org/static/media/logo.d8fc8b9a.svg') no-repeat;
+  background-size:150px;
+  background-position:left bottom;
+  border:10px solid #fff;
+  height:100%;
+  box-sizing:border-box;
+}
+
+body, body * {
+  font-family: monospace;
+}
+.response {
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+  color: #111;
+  font-size: 2em;
+}
+
+h3 {
+  background:transparent;
+  text-align: center;
+  margin: 0 0 20px;
+  color: #fff;
+  position:relative;
+  left:0;
+  top:0;
+  text-transform:capitalize;
+}
+
+#guess {
+  background: #333;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 2em;
+  width: 315px;
+}
+
+.form {
+  display:flex;
+  justify-content:space-between;
+}
+
+input {
+  border: 1px solid #ddd0d2;
+  background: #FFFCFA;
+  padding: 5px;
+  width: calc(100% - 270px);
+  font-size: 1em;
+  text-align: center;
+  position:relative;
+}
+
+button {
+  background: #7eff83;
+  border: 1px solid #666;
+  padding: 5px;
+  color: #000;
+  width: 250px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight:bold;
+}
