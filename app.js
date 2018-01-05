@@ -10,5 +10,18 @@ form.addEventListener("submit", guess)
 
 function guess(e) {
   e.preventDefault()
-  console.log('Hi Class');
+  var theirAnswer = input.value
+
+  if (theirAnswer == correctAnswer) {
+    response.innerHTML = "Yay, You did it!"
+  }
+  else if (theirAnswer > correctAnswer) {
+    response.innerHTML = "Too Big!"
+  }
+  else if (theirAnswer < correctAnswer) {
+    response.innerHTML = "Too Small"
+  }
+  else {
+    response.innerHTML = "Invalid Response"
+  }
 }
